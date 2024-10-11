@@ -7,7 +7,7 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #ffe5e5;
+  --background-color: #ffffff;
  /* Background color for the entire website, including individual sections */
   --default-color: #272829; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #45505b; /* Color for headings, subheadings and title throughout the website */
@@ -53,6 +53,7 @@ body {
   color: var(--default-color);
   background: var(--background-color);
   font-family: var(--default-font);
+  overflow-x: hidden;
 }
 
 a {
